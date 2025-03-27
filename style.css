@@ -1,0 +1,107 @@
+/* style5.css placeholder - Add your 300+ line CSS here */
+body {
+    background: #fdfcfb;
+    color: #333;
+    font-family: 'Playfair Display', serif;
+    margin: 0;
+    padding: 0;
+}
+
+.portfolio-wrapper {
+    max-width: 950px;
+    margin: 60px auto;
+    padding: 40px;
+    background-color: #fffefb;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+    border-radius: 12px;
+}
+
+.portfolio-name {
+    font-size: 3.5rem;
+    text-align: center;
+    color: #c4452f;
+    margin-bottom: 10px;
+}
+
+.portfolio-interest {
+    text-align: center;
+    font-size: 1.8rem;
+    color: #4a4a4a;
+    margin-bottom: 40px;
+}
+
+h2 {
+    border-bottom: 2px solid #c4452f;
+    padding-bottom: 5px;
+    margin-top: 30px;
+    font-size: 2rem;
+}
+
+.portfolio-basic-info p {
+    font-size: 1.1rem;
+    border-bottom: 1px dotted #ddd;
+    padding-bottom: 8px;
+    margin-bottom: 8px;
+}
+
+ul li {
+    margin-bottom: 6px;
+    font-size: 1.1rem;
+}
+
+ul li::before {
+    content: '⟶ ';
+    color: #c4452f;
+    font-weight: bold;
+}
+
+.portfolio-project-gallery img {
+    width: 32%;
+    margin: 1%;
+    border-radius: 8px;
+    transition: transform 0.3s;
+    border: 1px solid #eee;
+}
+
+.portfolio-project-gallery img:hover {
+    transform: scale(1.05);
+}
+
+.portfolio-testimonials blockquote {
+    border-left: 5px solid #c4452f;
+    padding-left: 20px;
+    font-style: italic;
+    background-color: #f9f5f0;
+    margin: 20px 0;
+}
+
+.certificates-gallery img {
+    width: 140px;
+    margin: 10px;
+    border-radius: 6px;
+    border: 1px solid #ddd;
+    transition: all 0.3s;
+}
+
+.certificates-gallery img:hover {
+    transform: rotate(2deg);
+    border-color: #c4452f;
+}
+
+.portfolio-footer {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.portfolio-footer a {
+    padding: 10px 20px;
+    background: #c4452f;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 25px;
+    transition: background 0.3s;
+}
+
+.portfolio-footer a:hover {
+    background: #a33c27;
+}
